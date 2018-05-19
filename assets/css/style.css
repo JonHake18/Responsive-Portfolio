@@ -1,0 +1,162 @@
+.image {
+    position: relative;
+    display: inline-block;
+    margin: 25px;
+}
+
+.text-block {
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    background: #4aaaa5;
+    color: white;
+}
+
+h1 {
+    font-size: 28pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    background: #4aaaa5;
+    padding: 15px;
+    width: 340px;
+    float: left;
+    height: 71px;
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #4aaaa5;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+.content {
+    width: 90%;
+    margin: 5%;
+    background: #ffffff;
+}
+
+body {
+    background-image: url(../images/background.png);
+    margin: 0px;
+    height: 100%;
+}
+
+.header {
+    width: 100%; 
+    background-color: #ffffff;
+    border-bottom: 5px solid #777777;
+    height: 76px;
+    top: 0px;
+}
+
+.footer {
+    width: 100%; 
+    background-color: #666666;
+    border-top: 6px solid #4aaaa5;
+    height: 76px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+}
+
+a {
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+hr {
+    border-style: inset;
+    border-width: 2px;
+    width: 90%;
+}
+
+#copyright {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: #777777;
+    line-height: 1.6;
+}
+
+input {
+    width: 80%;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+#headshot {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+nav {
+    background-color: white;
+    height: 76px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        width: 50%;
+        float: left;
+    }
+    
+    nav {
+        border-bottom: 5px solid #777777;
+        text-align: right;
+    }
+
+    .content {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width: 768px){
+    .header {
+        width: 50%;
+        float: left;
+    }
+    
+    nav {
+        border-bottom: 5px solid #777777;
+    }
+}
+    footer {
+        position: absolute;
+    }
+@media screen and (max-width: 640px){
+
+    #name {
+        top: 0px;
+        width: 100%;
+        padding: 0px;
+    }
+
+    hr {
+        margin: 5px;
+    }
+    #headshot {
+        width: 90%;
+        height: 90%;
+    }
+}
